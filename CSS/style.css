@@ -1,7 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .header{
     height: 50px;
@@ -26,9 +31,11 @@ body{
     list-style: none;
     display: flex;
     float: right;
+    
 }
 .header .social-icon li{
     position: relative;
+    top: 18px;
 }
 .header .social-icon li a{
     position: relative;
@@ -80,8 +87,14 @@ body{
     padding: 0px;
     background: rgb(1, 1, 61);
 }
+.main-header img{
+    height: 120px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
 .navigation-bar{
-    height: 40px;
+    height: 30px;
     width: 100%;
     margin: 0px;
     padding: 0px;
@@ -91,11 +104,28 @@ body{
     margin: 0px;
     padding: 0px;
     list-style: none;
-    line-height: 40px;
+    line-height: 30px;
 }
 .navigation-bar ul li{
     float: left;
     border-right: 1px solid rgb(255, 255, 255);
+    width: 130px;
+    text-align: center;
+}
+.navigation-bar ul li> ul li{
+    width: 190px;
+    border-bottom: solid 1px white;
+}
+.navigation-bar ul li> ul{
+    display: none;
+}
+.navigation-bar ul li:hover > ul{
+    display: block;
+}
+.navigation-bar ul li:hover > ul li{
+    background: rgb(228, 148, 0);
+    text-align: left;
+    width: 275px;
 }
 .navigation-bar ul li a{
     text-decoration: none;
@@ -110,3 +140,14 @@ body{
     transition: 0.4s;
     background: rgb(1, 1, 61);
 }
+
+  @media (max-width:480px){
+    .navigation-bar{
+        width: 100%;
+    }
+     .navigation-bar ul li{
+         width: 85px;
+         font-size: 10px;
+     }
+     
+  }
