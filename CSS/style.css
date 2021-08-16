@@ -86,7 +86,6 @@ body{
     margin: 0px;
     padding: 0px;
     background: rgb(1, 1, 61);
-    background-image: url('../IMAGES/pexels-artem-podrez-4492129.jpg');
 }
 .main-header img{
     height: 120px;
@@ -147,8 +146,8 @@ body{
         width: 100%;
     }
      .navigation-bar ul li{
-         width: 85px;
-         font-size: 10px;
+         width: 80px;
+         font-size: 8px;
      }
      
   }
