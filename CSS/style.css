@@ -132,7 +132,7 @@ body {
 .navigation-bar ul li {
   float: left;
   border-right: 1px solid rgb(255, 255, 255);
-  width: 130px;
+  width: 140px;
   text-align: center;
 }
 .navigation-bar ul li > ul li {
@@ -168,6 +168,15 @@ body {
     height: 1000px;
     width: 100%;
 }
+.content .marq{
+   width: 80%;
+   margin: 0px auto;
+   
+}
+.content .marq marquee{
+  color: #000080;
+  position:absolute;
+}
 
 @media (max-width: 480px) {
   .navigation-bar {
@@ -175,8 +184,7 @@ body {
   }
   .navigation-bar ul li {
     width: 80px;
-    font-size: 8px;
-    
+    font-size: 7px;
   }
   .main-header h1{
     color: #FFFFFF;
@@ -184,5 +192,6 @@ body {
     margin-left: 50px;
     font-size: 10px;
 }
+
 
 }
